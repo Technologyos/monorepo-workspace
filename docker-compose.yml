@@ -32,7 +32,7 @@ services:
       PGADMIN_DEFAULT_EMAIL: ${PGA_EMAIL}
       PGADMIN_DEFAULT_PASSWORD: ${PGA_PASSWORD}
     ports:
-      - 80:80
+      - 8080:80 #Se ha eliminado la exposición del contenedor de pgAdmin al puerto 8080 en el host. Esto se hace para evitar exponer pgAdmin directamente al público y, en su lugar, conectarlo a través de una red interna.
     depends_on:
       - postgres_db
     networks:
