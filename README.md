@@ -14,8 +14,8 @@
    #### Connection
     - **Host name/addess:** postgres (nombre del contenedor de PostgreSQL)
     - **Post:** 5432
-    - **Maintenance database:** spacedb
-    - **username:** space
+    - **Maintenance database:** space_db
+    - **username:** technologyos
     - **password:** YXNhbGF6YXJqQGdtYWlsLmNvbToqR
 
 Después de completar los datos, haremos clic en "Save" para establecer la conexión.
