@@ -1,6 +1,6 @@
 # monorepo-template
 
-1. **Crear el contenedor:** Para crear el contenedor, ejecutamos el siguiente comando en la terminal: `docker-compose up -d`. Una vez finalizada la creación, nos dirigimos a la siguiente URL de pgAdmin en nuestro navegador: [http://localhost:8080/login?next=%2F](http://localhost:8080/login?next=%2F).
+1. **Crear el contenedor:** Para crear el contenedor, ejecutamos el siguiente comando en la terminal: `docker-compose up -d`. Una vez finalizada la creación, nos dirigimos a la siguiente URL de pgAdmin en nuestro navegador: [http://localhost:8080/login?next=/](http://localhost:8080/login?next=/).
 
 2. **Ingresar credenciales del archivo .env:** Antes de continuar, debemos ingresar nuestras credenciales del archivo `.env` para acceder a pgAdmin. Buscaremos las variables `PGA_EMAIL` y `PGA_PASSWORD` y las ingresaremos en el login.
 
