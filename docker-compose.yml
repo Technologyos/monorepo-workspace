@@ -30,7 +30,7 @@ services:
     ports:
       - 8080:80 #Se ha eliminado la exposición del contenedor de pgAdmin al puerto 8080 en el host. Esto se hace para evitar exponer pgAdmin directamente al público y, en su lugar, conectarlo a través de una red interna.
     depends_on:
-      - postgres_db
+      - postgres
     networks:
       - postgres-network
 
