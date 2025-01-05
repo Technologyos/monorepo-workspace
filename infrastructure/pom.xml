@@ -32,7 +32,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  
+
   <dependencies></dependencies>
 
   <build>
