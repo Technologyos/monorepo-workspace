@@ -1,23 +1,26 @@
 # monorepo-template
 
-1. **Crear el contenedor:** Para crear el contenedor, ejecutamos el siguiente comando en la terminal: `docker-compose up -d`. Una vez finalizada la creación, nos dirigimos a la siguiente URL de pgAdmin en nuestro navegador: [http://localhost:8080/login?next=/](http://localhost:8080/login?next=/).
+### Steps to setting up the database
 
-2. **Ingresar credenciales del archivo .env:** Antes de continuar, debemos ingresar nuestras credenciales del archivo `.env` para acceder a pgAdmin. Buscaremos las variables `PGA_EMAIL` y `PGA_PASSWORD` y las ingresaremos en el login.
+1. **Create the container:** To create the container, run the following command in the terminal: `docker-compose up -d`. Once the creation is complete, go to the following pgAdmin URL in your browser: [http://localhost:8080/login?next=/](http://localhost:8080/login?next=/).
 
-3. **Crear el servidor en pgAdmin:** En la interfaz de pgAdmin, nos dirigimos a la sección de "Servers". Haciendo clic derecho, desplegaremos un menú en el que seleccionaremos "Register" y luego "Server".
+2. **Enter credentials from the .env file:** Before proceeding, you need to enter your credentials from the `.env` file to access pgAdmin. Look for the `PGA_EMAIL` and `PGA_PASSWORD` variables and enter them during login.
 
-4. **Configuración del servidor:** En la ventana de configuración del servidor, ingresaremos los siguientes datos:
+3. **Create the server in pgAdmin:**  In the pgAdmin interface, go to the "Servers" section. Right-click to open a menu, then select "Register" and "Server."
+
+4. **Server configuration:** In the server configuration window, fill in the following details:
 
    #### General
-    - **name:** postgres (nombre del contenedor de PostgreSQL)
+   - **name:** postgres (name of the PostgreSQL container)
 
    #### Connection
-    - **Host name/addess:** postgres (nombre del contenedor de PostgreSQL)
-    - **Post:** 5432
-    - **Maintenance database:** space_db
-    - **username:** technologyos
-    - **password:** YXNhbGF6YXJqQGdtYWlsLmNvbToqR
+   - **Host name/address:** postgres (name of the PostgreSQL container)
+   - **Post:** 5432
+   - **Maintenance database:** space_db
+   - **username:** technologyos
+   - **password:** YXNhbGF6YXJqQGdtYWlsLmNvbToqR
 
-Después de completar los datos, haremos clic en "Save" para establecer la conexión.
+After completing the details, click "Save" to establish the connection.
 
-**Nota:** Es importante recordar que estos datos se encuentran en el archivo `.env`, donde previamente hemos configurado nuestras credenciales.
+**Note:** Remember that these details are stored in the `.env`, file, where your credentials were previously configured.
+
