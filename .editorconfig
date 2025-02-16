@@ -37,10 +37,6 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
-# Exclusions for target directories
-[**/target/**]
-exclude_patterns = .*
-
 [*.test]
 indent_style = space
 indent_size = 4

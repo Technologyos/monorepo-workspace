@@ -18,11 +18,11 @@
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <spring-boot.version>3.4.2</spring-boot.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <lombok.version>1.18.30</lombok.version>
-    <dockerfile-maven-version>1.4.13</dockerfile-maven-version>
+    <spring-boot.version>3.4.2</spring-boot.version>
     <spring-cloud.version>2024.0.0</spring-cloud.version>
+    <lombok.version>1.18.36</lombok.version>
+    <dockerfile-maven-version>1.4.13</dockerfile-maven-version>
   </properties>
 
   <dependencyManagement>
@@ -70,6 +70,7 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>${lombok.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
