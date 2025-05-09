@@ -1,0 +1,14 @@
+blank_issues_enabled: false # Hides the "Open a blank issue" button, requiring users to choose from the available issue templates.
+#blank_issues_enabled: true # Allows users to create a blank issue if they do not want to use a predefined issue template.
+
+#This section allows you to define custom contact options that appear below the issue template choices. Each contact link includes:
+# name: The display name for the contact option.
+# url: The URL or mailto: address to redirect users to.
+# about: A short description of when or why a user should use this contact link.
+contact_links:
+  - name: Need general help with this project?
+    url: https://github.com/ArmandoSJ
+    about: Please contact us
+  - name: Have an issue with monorepo-workspace?
+    url: https://github.com/Technologyos/monorepo-workspace/issues
+    about: generate an issue.
